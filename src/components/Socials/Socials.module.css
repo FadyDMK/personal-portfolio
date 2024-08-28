@@ -1,0 +1,70 @@
+.card {
+  position: fixed; 
+  bottom: 0;
+
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem;
+  gap: 2rem;
+  box-shadow: 4px 4px black;
+}
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+/*Github*/
+.socialContainer:nth-child(1):hover {
+  background-color: #6e5494;
+  transition-duration: 0.3s;
+}
+
+/*Email*/
+.socialContainer:nth-child(2):hover {
+  background-color: #f1c40f;
+  transition-duration: 0.3s;
+}
+
+/*Linkedin*/
+.socialContainer:nth-child(3):hover {
+  background-color: #0077b5;
+  transition-duration: 0.3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 2rem;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

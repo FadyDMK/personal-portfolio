@@ -1,0 +1,46 @@
+.header {
+  --main-color: black;
+  border-bottom: 1px solid #e0e0e0;
+
+  margin: 0 auto;
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--background);
+}
+
+.logo {
+  height: 4rem;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: auto 0;
+}
+.links > li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links > li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s;
+}
+
+.links > li:hover::after {
+  width: 100%;
+}
