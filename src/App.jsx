@@ -4,6 +4,7 @@ import Intro from "./components/Intro/Intro";
 import styles from "./App.module.css";
 import Socials from "./components/Socials/Socials";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
       <section className={styles.third}>
         <Skills />
+      </section>
+
+      <section className={styles.fourth}>
+        <Projects />
       </section>
     </div>
   );

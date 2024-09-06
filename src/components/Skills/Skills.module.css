@@ -1,6 +1,6 @@
 .container {
   padding: 2rem;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -32,24 +32,33 @@
   overflow: hidden;
   width: 20rem;
   height: 10rem;
+}
+
+.skill:nth-child(1) {
   transform: rotate(-2deg);
   transition: ease-in-out 0.3s;
-}
-.skill:hover {
-  box-shadow: 15px 15px 0 var(--primary);
-  transform: rotate(0) scale(1.05);
-}
-.skill:nth-child(1) {
   grid-area: front;
 }
 .skill:nth-child(2) {
+  transform: rotate(2deg);
+  transition: ease-in-out 0.3s;
   grid-area: back;
 }
 .skill:nth-child(3) {
+  transform: rotate(-4deg);
+  transition: ease-in-out 0.3s;
   grid-area: languages;
+  height: fit-content;
+  padding-bottom: 1rem;
 }
 .skill:nth-child(4) {
+  transform: rotate(3deg);
+  transition: ease-in-out 0.3s;
   grid-area: tools;
+}
+.skill:hover {
+  box-shadow: 10px 10px 0 var(--primary);
+  transform: rotate(0) scale(1.05);
 }
 
 .skillTitle {
@@ -57,10 +66,9 @@
   font-weight: 700;
   color: var(--text);
   text-transform: uppercase;
-  
+
   display: block;
   border-bottom: 2px solid #000;
-  
 }
 .skillList {
   display: flex;
@@ -84,16 +92,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container{
-        height: fit-content;
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        
-    }
+  .container {
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
   .skills {
-    
     margin: 0;
     display: flex;
     flex-direction: column;
