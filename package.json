@@ -14,6 +14,8 @@
     "react-css-modules": "^4.7.11",
     "react-dom": "^18.3.1",
     "react-image": "^4.1.0",
+    "react-scroll-motion": "^0.3.3",
+    "react-scroll-parallax": "^3.4.5",
     "typeit-react": "^2.7.2"
   },
   "devDependencies": {

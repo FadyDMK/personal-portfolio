@@ -7,8 +7,9 @@ function Header() {
       <img src={letter} alt="logo" className={styles.logo} />
       <ul className={styles.links}>
         <li>Home</li>
-        <li>Projects</li>
         <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
       </ul>
     </header>
   );

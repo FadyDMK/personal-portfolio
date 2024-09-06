@@ -22,6 +22,7 @@
   flex-direction: row;
   gap: 2rem;
   margin: auto 0;
+  transition: all 0.3s ease;
 }
 .links > li {
   list-style: none;
@@ -43,4 +44,18 @@
 
 .links > li:hover::after {
   width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 100vw;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .links {
+    display: none;
+  }
+  
 }

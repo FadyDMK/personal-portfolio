@@ -76,3 +76,26 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+
+.avatar {
+    width: 50vw;
+
+  }
+  .text {
+    width: 50vw;
+    height: 50vw;
+  }
+  .textOverlay {
+    top: 50%;
+    left: 50%;
+    width: 50vw;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+  }
+  .scrollDown {
+    display: none;
+  }
+  
+}
