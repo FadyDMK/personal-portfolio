@@ -6,10 +6,10 @@ function Header() {
     <header className={styles.header}>
       <img src={letter} alt="logo" className={styles.logo} />
       <ul className={styles.links}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
+        <li><a href="#first">Home</a></li>
+        <li><a href="#second">About</a></li>
+        <li><a href="#third">Skills</a></li>
+        <li><a href="#fourth">Projects</a></li>
       </ul>
     </header>
   );

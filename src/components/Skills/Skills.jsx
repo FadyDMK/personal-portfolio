@@ -7,6 +7,12 @@ import node from "../../assets/nodejs-icon.svg";
 import express from "../../assets/express.svg";
 import postgresql from "../../assets/postgresql.svg";
 import python from "../../assets/python.svg";
+import csharp from "../../assets/c-sharp.svg";
+import java from "../../assets/java.svg";
+import git from "../../assets/git-icon.svg";
+import github from "../../assets/github-icon.svg";
+import vs from "../../assets/visual-studio-code.svg";
+import npm from "../../assets/npm-icon.svg";
 
 function Skills() {
   return (
@@ -35,18 +41,18 @@ function Skills() {
           <h2 className={styles.skillTitle}>Programming Languages</h2>
           <div className={styles.skillList}>
             <p className={styles.skillItem}>Python<span><img src={python} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>C#<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>Java<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>C<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>C#<span><img src={csharp} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>Java<span><img src={java} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>C</p>
           </div>
         </div>
         <div className={styles.skill}>
           <h2 className={styles.skillTitle}>Tools</h2>
           <div className={styles.skillList}>
-            <p className={styles.skillItem}>Git<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>GitHub<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>VSCode<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
-            <p className={styles.skillItem}>NPM<span><img src={html} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>Git<span><img src={git} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>GitHub<span><img src={github} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>VSCode<span><img src={vs} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
+            <p className={styles.skillItem}>NPM<span><img src={npm} style={{width:'1rem', paddingLeft:'1rem'}}></img></span></p>
           </div>
         </div>
       </div>
