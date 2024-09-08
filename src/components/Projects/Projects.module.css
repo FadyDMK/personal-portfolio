@@ -13,3 +13,12 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+
+@media screen and (max-width: 700px) {
+    
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -57,3 +57,9 @@
   transform: scale(1.05);
   background-color: var(--secondary);
 }
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 80%;
+  }
+}

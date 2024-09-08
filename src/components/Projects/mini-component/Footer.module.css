@@ -95,3 +95,17 @@ a {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    margin: 0;
+  }
+  .item3{
+    width: 5rem;
+    font-size: 2.5rem;
+  }
+  .item2{
+    font-size: 0.7rem;
+  }
+}

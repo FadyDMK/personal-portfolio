@@ -1,5 +1,6 @@
 .container{
   height: fit-content;
+  
 }
 section {
   height: 100vh;
@@ -7,4 +8,16 @@ section {
 }
 .fourth{
   height: fit-content;
+}
+@media screen and (max-width: 700px) {
+  .third {
+    height: fit-content;
+  }
+  .fourth{
+    height: fit-content;
+  }
+  .container{
+    width:min-content;
+  }
+  
 }
